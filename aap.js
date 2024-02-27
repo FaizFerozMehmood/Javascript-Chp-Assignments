@@ -82,7 +82,7 @@ var number = prompt("Enter your marks")
     else{
        alert("You failed")
     }
-  */
+  
 
 // Date 27/02/2024
 // Javascript conditional operators practices
@@ -102,7 +102,7 @@ if (age < 12) {
 }
 
 alert("Ticket Price: $" + ticketPrice);
-
+*/
 // Javascript array method Pop, push, shift, unshift, slice, and splice practices
 
 //CRUD system in Javascript
@@ -171,7 +171,7 @@ console.log(rr)
 var nn = [3,2]
 nn.unshift('01')
 console.log(nn)
-*/
+
 
 //push;Add element in last index
 var rra = ["Apple","Orange", "Strawberry","Mango"]
@@ -192,4 +192,11 @@ console.log(arr)
 var arr2 = ["faiz","umair","habib","mehboob","kashif","yasir"]
 arr2.splice(2,2,"Asim","Talha")
 console.log(arr2)
+*/
 
+// slice 
+
+var arrayOfStudentsName = ["Shehzad", "hashim","Sufiyan","Amla","Shujaat"];
+
+var slicingStudents = arrayOfStudentsName.slice(1,2);
+console.log("slice", slicingStudents);
