@@ -71,7 +71,7 @@ if(result== 0){
   "Odd"
 }
 alert(result)
-*/
+
 var number = prompt("Enter your marks")
 
     if(number > 90) alert("A+")
@@ -82,3 +82,114 @@ var number = prompt("Enter your marks")
     else{
        alert("You failed")
     }
+  */
+
+// Date 27/02/2024
+// Javascript conditional operators practices
+let age = prompt("Enter your age:");
+let isStudent = prompt("Are you student? (yes/no)").toLowerCase();
+
+let ticketPrice;
+
+if (age < 12) {
+    ticketPrice = 5;
+} else if (age => 12 && age <= 18 && isStudent === "yes") {
+    ticketPrice = 8;
+} else if (age >= 12 && age <= 18 && isStudent === "no") {
+    ticketPrice = 10;
+} else {
+    ticketPrice = 12;
+}
+
+alert("Ticket Price: $" + ticketPrice);
+
+// Javascript array method Pop, push, shift, unshift, slice, and splice practices
+
+//CRUD system in Javascript
+//data can be text number pics etc.
+//Boolean data : true false
+//string
+
+//Adding, removing & Replacing 
+
+
+/*method to remove from last index
+arr.pop();
+
+removing last element;
+arr.shift()
+adding data at the end;
+arr.puch("pls add this")
+element to add on first index;
+arr.unshift(true)
+
+
+arr.lenght;is a property
+that tells the total value of anything 
+
+arr.splice(1,3)
+*/
+
+
+//#######
+/*var arr =[29,30 ,"Faiz",31,2 <1 ];
+console.log(arr);*/
+
+/*var arr = [1,2,3,4,5,6,];
+arr.pop();
+console.log(arr)*/
+
+
+/*
+var arr = [1,3,3,4,"Ismail"];
+arr.pop();
+console.log(arr)
+*/
+/*
+
+var arr = [1,2,3,4,5,6,7,8,];
+arr.pop()
+console.log(arr)
+*/
+/*
+var habibAli = ["Habib","Ali"];
+habibAli.shift()
+console.log(habibAli);*/
+/*
+var faiz = [1,2,3];
+faiz.unshift("Mahmood")
+console.log(faiz)*/
+//[Mahmood,1,2,3]
+/*
+
+var arr = [1,2,3,]
+arr.pop()
+console.log(arr)
+var rr = [1,3,4,5]
+rr.shift(rr)
+console.log(rr)
+var nn = [3,2]
+nn.unshift('01')
+console.log(nn)
+*/
+
+//push;Add element in last index
+var rra = ["Apple","Orange", "Strawberry","Mango"]
+rra.push("Kiwi")
+console.log(rra)
+//"kiwi" will be added in last index
+//,just after "Mango"
+
+
+//USING SPLICE
+var arr = [1,2,3,4,5,6]
+arr.splice(2,1,"faiz");
+console.log(arr)
+//1 faiz ,2,3
+
+// USES OF Splice to remove multiple values,
+//In this example,habib & mehboob have been removed & added Asim & Talha on their slots
+var arr2 = ["faiz","umair","habib","mehboob","kashif","yasir"]
+arr2.splice(2,2,"Asim","Talha")
+console.log(arr2)
+
